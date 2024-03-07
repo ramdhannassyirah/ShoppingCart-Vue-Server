@@ -1,3 +1,3 @@
 module.exports = {
-  url: "mongodb://mongo:2GCGEDabe6cC2HgaB5gb-Bc5FDaB4DHc@monorail.proxy.rlwy.net:43818/",
+  url: "mongodb://mongo:bEAD6f223-d4c3F5eAcfcgh6-A1215E6@roundhouse.proxy.rlwy.net:51325/collect_shopping",
 };
