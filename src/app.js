@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use("/img", express.static(PATH.join(__dirname, "./public/img")));
 
-const db = require("../app/models");
+const db = require("../models");
 db.mongoose
   .connect(db.url, {
     useNewUrlParser: true,
@@ -25,8 +25,8 @@ app.get("/", (req, res) => {
   res.json({message: "Hello World"});
 });
 
-require("../app/routes/product.route")(app);
-require("../app/routes/order.route")(app);
+require("../routes/product.route")(app);
+require("../routes/order.route")(app);
 
 app.listen(PORT, () => {
   console.log(`Server running on port http://localhost:${PORT}`);
