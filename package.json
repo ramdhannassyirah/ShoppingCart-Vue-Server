@@ -1,0 +1,22 @@
+{
+  "name": "shoppingcart-server",
+  "version": "1.0.0",
+  "description": "Shopping server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "mongodb",
+    "rest",
+    "api"
+  ],
+  "author": "ramdhannassyirah",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1"
+  }
+}
