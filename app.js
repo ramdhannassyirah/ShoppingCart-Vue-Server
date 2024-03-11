@@ -9,7 +9,7 @@ let corsOptions = {
 };
 // enable cors
 
-app.use(cors(corsOptions));
+app.use(cors());
 // parse request of content-type - application/json
 app.use(express.json());
 // parse content-type - application/x-www-form-urlencoded
