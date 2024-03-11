@@ -1,3 +1,3 @@
 module.exports = {
-    url: "mongodb://localhost:27017/collect_vuestore"
-}
+  url: "mongodb://mongo:gvKQMZEgvOdqXDYuJjiMyrJLhbcAHORB@roundhouse.proxy.rlwy.net:14614/collect_shopping",
+};
