@@ -44,7 +44,7 @@ app.get("/", (req, res) => {
 require("./app/routes/product.routes")(app);
 require("./app/routes/order.routes")(app);
 
-const PORT = process.env.MONGODB_URL || 8000;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log(`server is running on http://localhost:${PORT}`);
 });
