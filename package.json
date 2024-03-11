@@ -1,25 +1,23 @@
 {
-  "name": "shoppingcart-server",
+  "name": "vuestore-server",
   "version": "1.0.0",
-  "description": "Shopping server",
+  "description": "vuestore backend",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "node.js",
-    "express.js",
+    "nodejs",
+    "express",
     "mongodb",
     "rest",
     "api"
   ],
-  "author": "ramdhannassyirah",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.3",
-    "mongoose": "^8.2.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.20"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3"
   }
 }
