@@ -26,6 +26,7 @@ db.mongoose
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
+    dbName: "collect_shopping",
   })
   .then(() => {
     console.log("Database connected!");

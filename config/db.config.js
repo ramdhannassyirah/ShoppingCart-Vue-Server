@@ -1,3 +1,6 @@
 module.exports = {
-  url: "mongodb://127.0.0.1:27017/collect_shopping",
+  url: "mongodb://mongo:gvKQMZEgvOdqXDYuJjiMyrJLhbcAHORB@roundhouse.proxy.rlwy.net:14614",
+  options: {
+    dbName: "collect_shopping",
+  },
 };
