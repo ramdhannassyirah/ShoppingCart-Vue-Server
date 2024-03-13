@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const history = require("connect-history-api-fallback");
 const path = require("path");
 
 const app = express();
@@ -8,6 +9,8 @@ let corsOptions = {
   origin: "http://localhost:5173",
 };
 // enable cors
+
+app.use(history());
 
 app.use(cors());
 // parse request of content-type - application/json
